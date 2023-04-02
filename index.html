@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css?_v=20230403000946" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css?_v=20230403000946" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.min.css?_v=20230403000946" />
+<title>Интернет-магазин готовых домокомплектов</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css?_v=20230403000946" />
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css?_v=20230403000946" /> -->
+</head>
+<body>
+<header class="header" style="background-image: url(./img/headerbg.jpeg); background-size:cover;">
+<div style="background: rgba(13, 18, 35, 0.74); min-height: 100vh; padding-top: 10px">
+<div class="container-fluid">
+<div class="container">
+<div class="header__menu d-flex justify-content-between align-items-center">
+<div class="header__left d-flex align-items-center gap-5">
+<div class="header__logo">
+<picture><source srcset="./img/logo.webp" type="image/webp"><img src="./img/logo.png" alt="logo" /></picture>
+</div>
+<div class="header__shops">
+<button class="header__shop-btn">Все магазины</button>
+</div>
+</div>
+<div class="header__right">
+<a class="header__phone" href="tel: 88005670009">8-800-567-00-09</a>
+</div>
+</div>
+<div class="header__content d-flex justify-content-between" data-aos="fade-right" data-aos-duration="1500">
+<div class="header__content-left">
+<h1 class="title title-header">Интернет-магазин готовых <br /> домокомплектов
+</h1>
+<ul class="header__content-list">
+<li class="header__item">Откроем и раскрутим магазин под ваш регион</li>
+<li class="header__item">Отличные условия от поставщика, закупка товара не требуется!</li>
+<li class="header__item">Продавайте домокомплекты и зарабатываете от 120 000 рублей в месяц</li>
+</ul>
+</div>
+<div class="header__content-right" data-aos="fade-left" data-aos-duration="1500">
+<button class="header__btn d-block">Онлайн-демо магазина</button>
+<button class="header__btn-simple d-inline-block calc__btn">Расчет прибыли для вашего города</button>
+</div>
+</div>
+<div class="header__info">
+<div class="header__advantages d-flex justify-content-between">
+<div class="header__advantages-item">
+<h2 class="advantages__title">СКОЛЬКО</h2>
+<p class="advantages__text">3-5 рабочих дней</p>
+</div>
+<div class="header__advantages-item">
+<h2 class="advantages__title">ПРИБЫЛЬ</h2>
+<p class="advantages__text">от 90 000 до 230 000 <br /> рублей в месяц
+</p>
+</div>
+<div class="header__advantages-item">
+<h2 class="advantages__title">ЧТО ВЫ ПОЛУЧИТЕ</h2>
+<p class="advantages__text"> интернет-магазин + <br /> поставщики + продвижение
+</p>
+</div>
+<div class="header__advantages-item">
+<h2 class="advantages__title">КОМПЛЕКТ ВКЛЮЧАЕТ</h2>
+<p class="advantages__text">хостинг, домен, поддержка</p>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid container-red">
+<div class="container">
+<div class="header__action d-flex justify-content-between align-items-center" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+<div class="header__items">
+<p class="header__items-text">20%</p>
+<p class="header__items-text-small">с 01.01 по 31.01</p>
+</div>
+<div class="header__items">
+<p class="header__items-text">Весь январь скидка 20% на все Тарифы!</p>
+<p class="header__items-text-small">Самый полезный и актуальный подарок! Начните год с новым Бизнесом!</p>
+</div>
+<div class="header__items">
+<button class="header__btn-action">Условия акции</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main>
+<section class="information">
+<div class="container">
+<h2 class="title text-center mt-5">Интернет-магазин</h2>
+<p class="information__text-title text-center mt-4">Вы получаете в собственность профессиональный, наполненный <br />интернет-магазин со всем необходимыми набором для <br />успешного ведения бизнеса
+</p>
+<div class="row mt-5 gx-5 gy-4 align-items-center justify-content-between text-center" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+<div class="col">
+<picture><source srcset="./img/information/bigimg1.webp" type="image/webp"><img class="img-fluid" src="./img/information/bigimg1.png" alt="bigimg1" /></picture>
+</div>
+<div class="col">
+<picture><source srcset="./img/information/onecardimg.webp" type="image/webp"><img src="./img/information/onecardimg.png" alt="onecardimg" /></picture>
+<h3 class="information__title">Seo оптимизация</h3>
+<p class="information__text">Ваш магазин будет полностью <br />оптимизирован для автоматической <br />индексации поисковиками
+</p>
+</div>
+<div class="col">
+<picture><source srcset="./img/information/twocardimg.webp" type="image/webp"><img class="img-fluid" src="./img/information/twocardimg.png" alt="onecardimg" /></picture>
+<h3 class="information__title">Домен + Хостинг</h3>
+<p class="information__text">Вы получаете в подарок домен <br />и хостинг на 12 месяцев
+</p>
+</div>
+</div>
+<div class="row gy-4 text-center mt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">
+<div class="col-4">
+<picture><source srcset="./img/information/tworowcard1.webp" type="image/webp"><img class="img-fluid" src="./img/information/tworowcard1.png" alt="onecardimg" /></picture>
+<h3 class="information__title">Мобильная версия</h3>
+<p class="information__text">Ваш магазин будет отлично <br />смотреться на смартфонах, <br />планшетах и компьютерах
+</p>
+</div>
+<div class="col-4">
+<picture><source srcset="./img/information/twocardrow2.webp" type="image/webp"><img class="img-fluid" src="./img/information/twocardrow2.png" alt="onecardimg" /></picture>
+<h3 class="information__title">Инструкции</h3>
+<p class="information__text">Вы получаете инструкции по работе <br />с магазином. Все просто и понятно<br />расписано и доступно каждому
+</p>
+</div>
+<div class="col-4">
+<picture><source srcset="./img/information/tworowcard.webp" type="image/webp"><img class="img-fluid" src="./img/information/tworowcard.png" alt="onecardimg" /></picture>
+<h3 class="information__title">Дизайн + Типографика</h3>
+<p class="information__text">Удобная подача визуального <br />контента. Мы отслеживаем тренды <br />в дизайне,поэтому ваш магазин <br />будет выглядеть актуально.
+</p>
+</div>
+</div>
+<div class="row text-center mt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3500">
+<div class="col">
+<picture><source srcset="./img/information/threerowonepng.webp" type="image/webp"><img class="img-fluid" src="./img/information/threerowonepng.png" alt="onecardimg" /></picture>
+<h3 class="information__title">Модули</h3>
+<p class="information__text">УДелайте рассылки, собирайте <br />обратную связь, подключайте <br />системы управления данными <br />клиентов (CRM).
+</p>
+</div>
+<div class="col">
+<picture><source srcset="./img/information/threerowonepng1.webp" type="image/webp"><img class="img-fluid" src="./img/information/threerowonepng1.png" alt="onecardimg" /></picture>
+<h3 class="information__title">Множество возможностей</h3>
+<p class="information__text">УПринимайте платежи любым способом: <br />наличные, банковские карты, Яндекс.Касса, <br />PayPal. Развивайте свой бизнес с помощью <br />чатов, обратных звонков, рассылок.
+</p>
+<a class="information__link" href="#">Посмотреть все возможности</a>
+</div>
+<div class="col">
+<picture><source srcset="./img/information/bigimg2.webp" type="image/webp"><img src="./img/information/bigimg2.png" alt="bigimg1" /></picture>
+</div>
+</div>
+</div>
+</section>
+<section class="provider mt-5">
+<div class="container">
+<div class="provider__content d-flex justify-content-between align-items-center">
+<div class="provider__info">
+<h3 class="title mb-3">Надежный поставщик</h3>
+<p class="provider__text">Тяжело найти хорошего надежного поставщика с низкими<br />ценами. Еще сложнее договориться с ним о сотрудничестве<br />на выгодных условиях. Но мы уже сделали это за вас!<br />Вместе с интернет- магазином, мы предоставляем<br />контакты поставщика и гарантию работы на наиболее<br />выгодных условиях.
+</p>
+</div>
+<div class="provider__img">
+<picture><source srcset="./img/information/phone.webp" type="image/webp"><img src="./img/information/phone.png" alt="phone" class="img-fluid" /></picture>
+</div>
+</div>
+<div class="provider__items d-flex justify-content-between align-items-center mt-5">
+<div class="provider__item">
+<h4 class="provider__item-title">Формат</h4>
+<p class="provider__item-text">закупка товара не <br />требуется, поставщик <br />работает под <br />конкретного клиента
+</p>
+</div>
+<div class="provider__item">
+<h4 class="provider__item-title">Бизнес</h4>
+<p class="provider__item-text">можно вести <br />самостоятельно без <br />сотрудников, офиса <br />и склада
+</p>
+</div>
+<div class="provider__item">
+<h4 class="provider__item-title">Товар</h4>
+<p class="provider__item-text">высокорентабельный <br />маржинальный <br />товар по цене ниже <br />конкурентов
+</p>
+</div>
+<div class="provider__item">
+<h4 class="provider__item-title">Удобно</h4>
+<p class="provider__item-text">склад и офис не <br />требуется, легко совмещать <br />с работой, отдыхом и <br />текущими делами
+</p>
+</div>
+<div class="provider__item">
+<h4 class="provider__item-title">ИП,ООО</h4>
+<p class="provider__item-text">можно работать , как <br />физ. лицо или действовать <br />и выставлять счета от <br />ООО поставщика
+</p>
+</div>
+</div>
+<div class="provider__content d-flex justify-content-between mt-5">
+<div class="provider__text">
+<p>Интернет-магазин готовых домокомплектов выгодный бизнес с <br />высоким средним чеком . Достаточно совершать всего 1-2 продажи <br />в месяц, чтобы обеспечить прибыль около 100 000
+</p>
+<p>Бизнес легко совмещать с основной работой, не требуется <br />постоянно находится на связи и отвечать на заявки покупателей, <br />как это происходит в дешевом сегменте.
+</p>
+</div>
+<div class="provider__money">
+<h4 class="provider__content-rub">58 000 рублей</h4>
+<p class="provider__content-sold">средняя прибыль с одной <br />продажи.</p>
+<a class="information__link" href="#">Скачать полный прайс</a>
+</div>
+</div>
+</div>
+</section>
+<section class="rates mt-5">
+<div class="container">
+<div class="rates__way">
+<h3 class="text-center rates__title text-white">Вам осталось только ознакомиться с <br />тарифами и выбрать свой путь развития.
+</h3>
+<div class="rates__links d-flex justify-content-center gap-5">
+<a href="#start" class="rates__link">Тариф Start</a>
+<a href="#plus" class="rates__link">Тариф Plus</a>
+<a href="#pro" class="rates__link">Тариф Pro</a>
+</div>
+</div>
+</div>
+</section>
+<section class="full__rates mt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+<div class="container">
+<h3 class="title text-center text-black" id="start">Тариф Start</h3>
+<div class="full__rates-content d-flex justify-content-between align-items-center">
+<div class="full__rates-content-block d-flex mt-5">
+<div>
+<picture><source srcset="./img/rates/clothes.webp" type="image/webp"><img src="./img/rates/clothes.png" alt="clothes" /></picture>
+</div>
+<div>
+<h5 class="text-black full__rates-subtitle">Интернет-магазин</h5>
+<p class="full__rates-subtext">Живые вебинары. Видеозаписи занятий <br />доступны в личном кабинете в любое удобное время.
+</p>
+</div>
+</div>
+<div>
+<picture><source srcset="./img/rates/plus.webp" type="image/webp"><img src="./img/rates/plus.png" alt="plus" /></picture>
+</div>
+<div class="full__rates-content-block d-flex mt-4">
+<div class="mx-4">
+<picture><source srcset="./img/rates/partners.webp" type="image/webp"><img src="./img/rates/partners.png" alt="partners" /></picture>
+</div>
+<div>
+<h5 class="text-black full__rates-subtitle">Поставщики</h5>
+<p class="ull__rates-subtext">Мы предоставляем контакты поставщика и <br />гарантию работы на наиболее выгодных <br />условиях.
+</p>
+</div>
+</div>
+</div>
+<form class="form__rates form__rates-color mt-5">
+<div class="d-flex justify-content-between align-items-center">
+<div>
+<h3 class="title form__rates-title">Интернет-магазин + поставщики</h3>
+<p class="form__rates-title-small">Интернет-магазин + поставщики</p>
+</div>
+<div>
+<span class="form__rates-price">16 000 ₽</span> <span class="form__rates-price-small">20 000 ₽</span>
+<p class="form__rates-discount">Сейчас скидка</p>
+</div>
+</div>
+<hr />
+<div class="d-flex justify-content-between">
+<input class="form__rates-input" type="text" placeholder="Имя"/>
+<input class="form__rates-input" type="tel" placeholder="+7 (000) 000-00-00 " />
+<input class="form__rates-input" type="email" placeholder="E-mail"/>
+<button class="btn btn__open-order" id="btn__open-order">Отправить</button>
+</div>
+</form>
+</div>
+</section>
+<section class="full__rates mt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+<div class="container">
+<h3 class="title text-center text-black" id="plus">Тариф Plus</h3>
+<div class="full__rates-content d-flex justify-content-between align-items-center">
+<div class="full__rates-content-block d-flex mt-5">
+<div>
+<picture><source srcset="./img/rates/protect.webp" type="image/webp"><img src="./img/rates/protect.png" alt="protect" /></picture>
+</div>
+<div>
+<h5 class="text-black full__rates-subtitle">Полностью включает<br />Тариф Start
+</h5>
+<p class="full__rates-subtext">Живые вебинары. Видеозаписи занятий <br />доступны в личном кабинете в любое удобное время.
+</p>
+</div>
+</div>
+<div>
+<picture><source srcset="./img/rates/plus.webp" type="image/webp"><img src="./img/rates/plus.png" alt="plus" /></picture>
+</div>
+<div class="full__rates-content-block d-flex mt-4">
+<div class="mx-4">
+<picture><source srcset="./img/rates/box.webp" type="image/webp"><img src="./img/rates/box.png" alt="box" /></picture>
+</div>
+<div>
+<h5 class="text-black full__rates-subtitle">Вы получаете рекламу на <br />30 000 рублей
+</h5>
+<p class="ull__rates-subtext">Которая вам обеспечит от 60 000 рублей <br />чистой прибыли.
+</p>
+</div>
+</div>
+</div>
+<form class="form__rates form__rates-color mt-5">
+<div class="d-flex justify-content-between align-items-center">
+<div>
+<h3 class="title form__rates-title">Интернет-магазин + поставщики</h3>
+<p class="form__rates-title-small">Интернет-магазин + поставщики</p>
+</div>
+<div>
+<span class="form__rates-price">16 000 ₽</span> <span class="form__rates-price-small">20 000 ₽</span>
+<p class="form__rates-discount">Сейчас скидка</p>
+</div>
+</div>
+<hr />
+<div class="d-flex justify-content-between">
+<input class="form__rates-input" type="text" placeholder="Имя" />
+<input class="form__rates-input" type="tel" placeholder="+7 (000) 000-00-00 " />
+<input class="form__rates-input" type="email" placeholder="E-mail" />
+<button class="btn btn__open-order">Отправить</button>
+</div>
+</form>
+</div>
+</section>
+<section class="full__rates mt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+<div class="container">
+<h3 class="title text-center text-black" id="pro">Тариф Pro</h3>
+<div class="full__rates-content d-flex justify-content-between align-items-center">
+<div class="full__rates-content-block d-flex mt-5">
+<div>
+<picture><source srcset="./img/rates/target.webp" type="image/webp"><img src="./img/rates/target.png" alt="target" /></picture>
+</div>
+<div>
+<h5 class="text-black full__rates-subtitle">Включает полностью Тариф<br />Plus, но вам не придется<br />самостоятельно заниматься<br />рекламой.</h5>
+<p class="full__rates-subtext">Мы полностью продвинем интернет-<br />магазин и выведем его на прибыль<br />от 120 000 рублей в месяц.
+</p>
+</div>
+</div>
+<div>
+<picture><source srcset="./img/rates/plus.webp" type="image/webp"><img src="./img/rates/plus.png" alt="plus" /></picture>
+</div>
+<div class="full__rates-content-block d-flex mt-4">
+<div class="mx-4">
+<picture><source srcset="./img/rates/monitor.webp" type="image/webp"><img src="./img/rates/monitor.png" alt="monitor" /></picture>
+</div>
+<div>
+<h5 class="text-black full__rates-subtitle">Вы только принимаете заявки<br />от покупателей и<br />осуществляете доставку.
+</h5>
+<p class="ull__rates-subtext">Условия фиксируются в договоре. Гарантия<br />и защита вложенных средств.
+</p>
+</div>
+</div>
+</div>
+<form class="form__rates form__rates-color mt-5">
+<div class="d-flex justify-content-between align-items-center">
+<div>
+<h3 class="title form__rates-title">Интернет-магазин + поставщики</h3>
+<p class="form__rates-title-small">Интернет-магазин + поставщики</p>
+</div>
+<div>
+<span class="form__rates-price">16 000 ₽</span> <span class="form__rates-price-small">20 000 ₽</span>
+<p class="form__rates-discount">Сейчас скидка</p>
+</div>
+</div>
+<hr />
+<div class="d-flex justify-content-between">
+<input class="form__rates-input" type="text" placeholder="Имя" />
+<input class="form__rates-input" type="tel" placeholder="+7 (000) 000-00-00 " />
+<input class="form__rates-input" type="email" placeholder="E-mail" />
+<button class="btn btn__open-order">Отправить</button>
+</div>
+</form>
+</div>
+</section>
+<section class="questions mt-5">
+<div class="container-fluid questions__conteiner">
+<div class="container">
+<h3 class="questions__title pt-5">Есть вопросы? <br />Оставьте заявку и мы свяжемся <br />с вами в рабочее время
+</h3>
+<div class="questions__content d-flex justify-content-between mt-5">
+<div class="questions__price">
+<div>
+<span class="questions__price-piece">ПРИ ОПЛАТЕ ЧАСТЯМИ</span>
+<p class="questions__price-price">2 075 ₽/мес.</p>
+</div>
+<div>
+<span class="questions__price-piece">ОДНИМ ПЛАТЕЖОМ</span>
+<p class="questions__price-price">21 165 ₽ <span class="questions__price-price-small">24 900 ₽</span></p>
+<p class="questions__price-price-green d-inline-block">До 31 декабря скидка 3 735 ₽</p>
+</div>
+<div class="questions__block">
+<h5 class="questions__price-economy-title">Сэкономьте еще 13%</h5>
+<p class="questions__price-economy-text">Вы можете вернуть 13% денег через <br />налоговый вычет. Спросите об этом <br />менеджера, когда запишетесь на курс
+</p>
+</div>
+</div>
+<div class="questions__form d-flex flex-column">
+<form>
+<div>
+<div><input class="questions__form-input mt-2" type="text" placeholder="Имя" /></div>
+<div><input class="questions__form-input mt-2" type="text" placeholder="Фамилия" /></div>
+<div><input class="questions__form-input mt-2" type="tel" placeholder="+7 (000) 000-00-00 " /></div>
+<div><input class="questions__form-input mt-2" type="email" placeholder="E-mail" /></div>
+</div>
+<button class="questions__btn d-block mt-3">Оплатить тариф</button>
+<button class="questions__btn-consultation d-block mt-3">Получить консультацию</button>
+<p class="questions__form-text mt-3 pb-3">Нажимая кнопку, принимаю условия<br />
+<a href="#">политики</a> и <a href="#">пользовательского соглашения</a>
+</p>
+</form>
+</div>
+<div class="questions__info">
+<ul class="questions__list">
+<li class="questions__item">
+<h5 class="questions__list-title">Гарантия по договору</h5>
+<p class="questions__list-text">Мы предоставляем беспроцентный <br />кредит от Сбербанка, Тинькофф или от <br />Яндекс.Кассы. Вы разделите платеж и <br />ничего не переплатите</p>
+</li>
+<li class="questions__item">
+<h5 class="questions__list-title">Способы оплаты?</h5>
+<p class="questions__list-text">Запишитесь на курс от имени того, кто <br />будет учиться, а затем выберите способ <br />оплаты «По счету от юрлица»</p>
+</li>
+<li class="questions__item">
+<h5 class="questions__list-title">Есть еще вопросы?</h5>
+<p class="questions__list-text">Звоните нам — 8 (800) 567-00-09</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="tabs mt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+<div class="container">
+<h3 class="title">Для кого подойдет этот бизнес</h3>
+<div class="tabs">
+<div class="tabs__nav tabs-nav d-flex justify-content-between">
+<div class="tabs-nav__item is-active" data-tab-name="tab-1">Начинающим пиарщикам</div>
+<div class="tabs-nav__item" data-tab-name="tab-2">PR-менеджерам с опытом в офлайне</div>
+<div class="tabs-nav__item" data-tab-name="tab-3">Специалистам смежных digital-профессий</div>
+<div class="tabs-nav__item" data-tab-name="tab-4">Руководителям стартапов и бизнесов</div>
+</div>
+<div class="tabs__content">
+<div class="tab is-active tab-1">
+<h4 class="tabs__title">Начинающим пиарщикам</h4>
+<p class="tabs__text">Научитесь выбирать эффективные инструменты PR-<br> продвижения в условиях минимального бюджета. Построите<br> историю успешного проекта, привлекая внимание журналистов,<br> завоевывая доверие инвесторов и клиентов.</p>
+</div>
+<div class="tab tab-2">
+<h4 class="tabs__title">PR-менеджерам с опытом в офлайне</h4>
+<p class="tabs__text">Научитесь выбирать эффективные инструменты PR-<br> продвижения в условиях минимального бюджета. Построите<br> историю успешного проекта, привлекая внимание журналистов,<br> завоевывая доверие инвесторов и клиентов.</p>
+</div>
+<div class="tab tab-3">
+<h4 class="tabs__title">Специалистам смежных digital-профессий</h4>
+<p class="tabs__text">Научитесь выбирать эффективные инструменты PR-<br> продвижения в условиях минимального бюджета. Построите<br> историю успешного проекта, привлекая внимание журналистов,<br> завоевывая доверие инвесторов и клиентов.</p>
+</div>
+<div class="tab tab-4">
+<h4 class="tabs__title">Руководителям стартапов и бизнесов</h4>
+<p class="tabs__text">Научитесь выбирать эффективные инструменты PR-<br> продвижения в условиях минимального бюджета. Построите<br> историю успешного проекта, привлекая внимание журналистов,<br> завоевывая доверие инвесторов и клиентов.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="busines mt-5">
+<div class="container">
+<h3 class="title">Как запустить бизнес?</h3>
+<div class="busines__content d-flex justify-content-between gap-4 mt-5">
+<div class="busines__item d-flex flex-column align-items-center">
+<picture><source srcset="./img/busines/interview1.webp" type="image/webp"><img src="./img/busines/interview1.png" alt="interview" /></picture>
+<h5 class="busines__title">Заявка</h5>
+<p class="busines__text">Вы оставляете заявку, мы связываемся с вами для разбора вопросов и выбораТарифа</p>
+</div>
+<div class="busines__item d-flex flex-column align-items-center">
+<picture><source srcset="./img/busines/onlineshop.webp" type="image/webp"><img src="./img/busines/onlineshop.png" alt="onlineshop" /></picture>
+<h5 class="busines__title">Интернет-магазин</h5>
+<p class="busines__text">Мы создаем для вас интернет-магазин, предоставляем поставщика и запускаем рекламу</p>
+</div>
+<div class="busines__item d-flex flex-column align-items-center">
+<picture><source srcset="./img/busines/contact.webp" type="image/webp"><img src="./img/busines/contact.png" alt="contact" /></picture>
+<h5 class="busines__title">Заявки покупателей</h5>
+<p class="busines__text">Вам начинают поступать заявки от покупателей, благодаря нашим скриптам для продаж и разговорным сценариям, вы совершаете продажу</p>
+</div>
+<div class="busines__item d-flex flex-column align-items-center">
+<picture><source srcset="./img/busines/investment.webp" type="image/webp"><img src="./img/busines/investment.png" alt="investment" /></picture>
+<h5 class="busines__title">Прибыль</h5>
+<p class="busines__text">Разница между оптовой и розничной ценой ваша прибыль</p>
+</div>
+</div>
+</div>
+</section>
+<section class="answers mt-5 mb-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+<div class="container">
+<h3 class="title">Вопросы</h3>
+<div class="accordion__wrapper">
+<div class="accordion-item">
+<div class="accordion-item-header"> Базовые принципы посадочных страниц</div>
+<div class="accordion-item-body">
+<div class="accordion-item-body-content"> Вы изучите, как выстраивать взаимодействие с партнерами и инфопартнёрами, включая конкретные шаблоны сообщений.Как организовывать мероприятия: внутренние, регулярные, флагманские, фестивали и конференции. Как вовлекатьсообщество в организацию.  Для чего нужен мерчендайзинг. Какие бывают типы монетизации.Узнаем, каквзаимодействовать со СМИ, как собрать базу СМИ и наладить контакты. Научимся готовить питч, пресс-релиз и другиеповестки.Познакомимся с инструментами работы со СМИ.</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-item-header"> Базовые принципы посадочных страниц</div>
+<div class="accordion-item-body">
+<div class="accordion-item-body-content"> Вы изучите, как выстраивать взаимодействие с партнерами и инфопартнёрами, включая конкретные шаблоны сообщений.Как организовывать мероприятия: внутренние, регулярные, флагманские, фестивали и конференции. Как вовлекатьсообщество в организацию.  Для чего нужен мерчендайзинг. Какие бывают типы монетизации.Узнаем, каквзаимодействовать со СМИ, как собрать базу СМИ и наладить контакты. Научимся готовить питч, пресс-релиз и другиеповестки.Познакомимся с инструментами работы со СМИ.</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-item-header"> Базовые принципы посадочных страниц</div>
+<div class="accordion-item-body">
+<div class="accordion-item-body-content"> Вы изучите, как выстраивать взаимодействие с партнерами и инфопартнёрами, включая конкретные шаблоны сообщений.Как организовывать мероприятия: внутренние, регулярные, флагманские, фестивали и конференции. Как вовлекатьсообщество в организацию.  Для чего нужен мерчендайзинг. Какие бывают типы монетизации.Узнаем, каквзаимодействовать со СМИ, как собрать базу СМИ и наладить контакты. Научимся готовить питч, пресс-релиз и другиеповестки.Познакомимся с инструментами работы со СМИ.</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-item-header"> Базовые принципы посадочных страниц</div>
+<div class="accordion-item-body">
+<div class="accordion-item-body-content"> Вы изучите, как выстраивать взаимодействие с партнерами и инфопартнёрами, включая конкретные шаблоны сообщений.Как организовывать мероприятия: внутренние, регулярные, флагманские, фестивали и конференции. Как вовлекатьсообщество в организацию.  Для чего нужен мерчендайзинг. Какие бывают типы монетизации.Узнаем, каквзаимодействовать со СМИ, как собрать базу СМИ и наладить контакты. Научимся готовить питч, пресс-релиз и другиеповестки.Познакомимся с инструментами работы со СМИ.</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-item-header"> Базовые принципы посадочных страниц</div>
+<div class="accordion-item-body">
+<div class="accordion-item-body-content"> Вы изучите, как выстраивать взаимодействие с партнерами и инфопартнёрами, включая конкретные шаблоны сообщений.Как организовывать мероприятия: внутренние, регулярные, флагманские, фестивали и конференции. Как вовлекатьсообщество в организацию.  Для чего нужен мерчендайзинг. Какие бывают типы монетизации.Узнаем, каквзаимодействовать со СМИ, как собрать базу СМИ и наладить контакты. Научимся готовить питч, пресс-релиз и другиеповестки.Познакомимся с инструментами работы со СМИ.</div>
+</div>
+</div>
+</div>
+<button class="answers__btn-all">Все вопросы</button>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container-fluid footer__container">
+<div class="container">
+<div class="footer__content d-flex justify-content-between align-items-center">
+<div class="footer__logo">
+<picture><source srcset="./img/logo.webp" type="image/webp"><img src="./img/logo.png" alt="logo" /></picture>
+</div>
+<div class="footer__phone">
+<a class="header__phone" href="tel: 88005670009">8-800-567-00-09 <br />бесплатно по России</a>
+</div>
+<div class="footer__address">
+<p class="footer__text">Санкт-Петербург, БЦ Космопро, <br />Ленинский просп., 140 И, офис 307
+</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- modal window -->
+<div class="wrapper__modal">
+<div class="overlay"></div>
+<div class="modal__window-item" data-modal>
+<div class="modal__content d-flex justify-content-between align-items-center">
+<div class="modal__left">
+<h2 class="modal__title">Весь январь 2020 года скидка 20% на все Тарифы</h2>
+<ul class="modal__list">
+<li class="modal__item">Успейте оплатить до 31 января <br />включительно и получите скидку!
+</li>
+<li class="modal__item">Это предложение не суммируется с <br />другими скидками и промокодами.
+</li>
+</ul>
+<button class="btn__popup-close">Закрыть</button>
+</div>
+<div class="modal__right">
+<picture><source srcset="./img/gifts.webp" type="image/webp"><img src="./img/gifts.png" alt="gifts" /></picture>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper__modal-calc">
+<div class="overlay"></div>
+<div class="modal__window-item-one" data-modal>
+<div class="form__img text-center">
+<picture><source srcset="./img/calc.webp" type="image/webp"><img src="./img/calc.png" alt="calc" /></picture>
+</div>
+<h2 class="modal__title modal__title-calc text-center">Укажите ваш город и мы сделаем расчет средней прибыли в месяц по каждому из тарифов </h2>
+<div class="input-control">
+<form class="form__calc d-flex flex-column gap-3" id="form">
+<input type="text" id="user" placeholder="ФИО"/>
+<input type="text" id="city" placeholder="Город"/>
+<input type="tel" id="tel" placeholder="+7 (000) 000-00-00"/>
+<button class="btn__popup-close">Расчитать</button>            
+</form>
+</div>      
+</div>
+</div>
+<div class="wrapper__modal-order">
+<div class="overlay"></div>
+<div class="modal__window-item-one" data-modal>
+<div class="form__img text-center">
+<picture><source srcset="./img/calc.webp" type="image/webp"><img src="./img/calc.png" alt="calc" /></picture>
+</div>
+<h2 class="modal__title modal__title-calc text-center">Скоро вам позвонят</h2>
+<p class="text-center">В ближайшее время наш менеджер <br />свяжется в вами и ответит на <br />все вопросы
+</p>
+<div class="text-center">
+<button class="btn__popup-close text-center">Закрыть</button>
+</div>
+</div>
+</div>
+<script src="js/app.min.js?_v=20230403000946"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js?_v=20230403000946"></script>
+<script>AOS.init();</script>
+</body>
+</html>
